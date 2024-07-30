@@ -1,3 +1,4 @@
+/* fonts */
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -7,22 +8,38 @@
         "slnt" 0;
 }
 
+#great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.875rem;
+}
+
+/* uni-styles */
+
 * {
     margin: 0 auto;
 }
 
+/* body-styles */
+
 body {
     background-color: black;
-    max-width: 1349px;
+    max-width: 1366px;
+
 }
+
+/* header-styles */
 
 .header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
     position: absolute;
     width: 1349px;
     height: 700px;
-
+    margin: 0 auto;
 }
+
+/* nav-styles */
 
 nav>ul>li {
     list-style-type: none;
@@ -38,6 +55,7 @@ nav>ul>li {
     height: 46px;
     left: 173px;
     top: 57px;
+
     /* border: 1px solid purple; */
 }
 
@@ -70,19 +88,15 @@ nav>img {
 }
 
 .item-links {
-
-
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 120%;
     letter-spacing: 0%;
-
 }
 
 .item-links-1 {
-
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 600;
@@ -100,11 +114,13 @@ nav>img {
     margin-right: 47px;
 }
 
+/* hero-styles */
+
 .hero {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     position: absolute;
 }
 
@@ -115,18 +131,16 @@ nav>img {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0px;
-
     position: absolute;
-    width: 599.05px;
+    width: 550px;
     height: 440px;
     left: 173px;
     top: 199px;
 
 
-
 }
 
-.section-title {
+.banner-title {
     color: rgb(255, 255, 255);
     font-size: 4.875rem;
     font-weight: 900;
@@ -134,12 +148,14 @@ nav>img {
     margin-bottom: 28px;
 }
 
-.section-description {
+.banner-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 28px;
 }
+
+/* button-styles */
 
 button {
     cursor: pointer;
@@ -187,12 +203,87 @@ button {
 }
 
 .img-1 {
-    position: absolute;
+    position: relative;
     width: 349px;
     height: 580px;
     left: 817px;
     top: 135px;
+    margin-left: 20px;
 }
+
+/* blur-styles */
+
+.blur-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(9px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 193px;
+    height: 98px;
+    left: 230px;
+    top: 125px;
+
+}
+
+.blur-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(9px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 206px;
+    height: 96px;
+    right: 256px;
+    top: 421px;
+
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 100%;
+    margin-left: 23px;
+    margin-right: 0px;
+}
+
+.blur-title {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.font-24 {
+    font-size: 1.5rem;
+}
+
+.blur-description {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+/* responsive-styles */
 
 @media screen and (max-width: 576px) {
     body {
