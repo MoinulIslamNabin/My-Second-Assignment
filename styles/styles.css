@@ -25,7 +25,8 @@
 
 body {
     background-color: black;
-    max-width: 1366px;
+    max-width: 1440px;
+
 
 }
 
@@ -120,7 +121,7 @@ nav>img {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
 }
 
 .banner {
@@ -282,6 +283,93 @@ button {
     text-align: left;
 }
 
+/* habit-styles */
+
+.habit {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1000px;
+    height: 450px;
+    left: 173px;
+    top: 190px;
+}
+
+.habit-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 660px;
+    height: 120px;
+
+
+}
+
+.habit-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 274px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 231px;
+    height: 274px;
+    margin-top: 58px;
+}
+
+.card img {
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+
+.section-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+.section-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.card-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+.card-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+
 /* responsive-styles */
 
 @media screen and (max-width: 576px) {
@@ -319,6 +407,7 @@ button {
     }
 
     .hero {
+        flex-direction: column;
         width: 500px;
     }
 
@@ -335,7 +424,7 @@ button {
 
     .img-1 {
         top: 625px;
-        left: 110px;
+        left: 70px;
     }
 
     .blur-1 {
