@@ -407,6 +407,7 @@ button {
     }
 
     .hero {
+        position: absolute;
         flex-direction: column;
         width: 500px;
     }
@@ -418,13 +419,17 @@ button {
         left: 40px;
     }
 
+    .button {
+        width: 495px;
+    }
+
     br {
         display: none;
     }
 
     .img-1 {
         top: 625px;
-        left: 70px;
+        left: 100px;
     }
 
     .blur-1 {
@@ -434,6 +439,35 @@ button {
 
     .blur-2 {
         right: 220px;
+    }
+
+    .container {
+        width: 495px;
+        height: 1398px;
+        left: 40px;
+        top: 1212px;
+    }
+
+    .habit-card {
+        flex-direction: column;
+        width: 338px;
+        height: 1216px;
+    }
+
+    .card {
+        margin-top: 36px;
+    }
+
+    .habit-title {
+        width: 465px;
+        height: 124px;
+        
+    }
+
+    .section-title {
+        width: 465px;
+        text-align: center;
+        font-size: 2rem;
     }
 
 }
