@@ -190,7 +190,7 @@ button {
     width: 224px;
     height: 54px;
     padding: 16px 40px;
-    background-color: black;
+    background-color: transparent;
     box-sizing: border-box;
     border: 1px solid white;
     border-radius: 42px;
@@ -374,12 +374,12 @@ button {
 
 @media screen and (max-width: 576px) {
     body {
-        max-width: 576px;
+        max-width: 575px;
         margin: 0 auto;
     }
 
     .header {
-        width: 576px;
+        width: 575px;
         height: 1000px;
     }
 
